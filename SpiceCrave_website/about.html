@@ -158,9 +158,7 @@
                         <h3>Carefully Crafted in Bulk, Yet Always Fresh</h3>
                         <p>We prepare our dishes in bulk while ensuring each batch is made fresh, maintaining the highest quality standards. Our dedicated team follows strict hygiene practices to preserve the rich flavors and authenticity of our food.</p>
                     </div>
-                    <div class="col-lg-2 wow fadeInLeft" data-wow-delay="0.2s">
-                        <img src="img/about-1.jpg" alt="Freshly Prepared in Bulk" class="img-fluid process-img">
-                    </div>
+                  
                 </div>
         
                 <!-- Step 2 -->
@@ -172,9 +170,7 @@
                         <h3>Thoughtful Packaging & Branding</h3>
                         <p>Every item is carefully packed into containers featuring our logo and brand details. Our team ensures every package is securely sealed, keeping freshness intact until it reaches your hands.</p>
                     </div>
-                    <div class="col-lg-2 wow fadeInLeft" data-wow-delay="0.2s">
-                        <img src="img/about-1.jpg" alt="Freshly Prepared in Bulk" class="img-fluid process-img">
-                    </div>
+                   
                 </div>
         
                 <!-- Step 3 -->
@@ -186,9 +182,7 @@
                         <h3>Supplying to Customers & Businesses</h3>
                         <p>We proudly deliver our products to <strong>individual customers, restaurants, and events</strong>. No matter the occasion, we ensure timely distribution with a smile.</p>
                     </div>
-                    <div class="col-lg-2 wow fadeInLeft" data-wow-delay="0.2s">
-                        <img src="img/about-1.jpg" alt="Freshly Prepared in Bulk" class="img-fluid process-img">
-                    </div>
+                   
                 </div>
         
                 <!-- Step 4 -->
@@ -200,9 +194,7 @@
                         <h3>Hygiene & Quality First</h3>
                         <p>From ingredient selection to packaging, we take extra precautions to meet the <strong>highest food safety standards</strong>.</p>
                     </div>
-                    <div class="col-lg-2 wow fadeInLeft" data-wow-delay="0.2s">
-                        <img src="img/about-1.jpg" alt="Freshly Prepared in Bulk" class="img-fluid process-img">
-                    </div>
+                   
                 </div>
         
                 <!-- Step 5 -->
@@ -214,9 +206,7 @@
                         <h3>Always Connected with You</h3>
                         <p>We engage with customers via <strong>FaceBook, Instagram, WhatsApp, Website, Local Calls, and Emails</strong>. Subscribers receive exclusive updates on offers and new products.</p>
                     </div>
-                    <div class="col-lg-2 wow fadeInLeft" data-wow-delay="0.2s">
-                        <img src="img/about-1.jpg" alt="Freshly Prepared in Bulk" class="img-fluid process-img">
-                    </div>
+                    
                 </div>
         
                 <!-- Step 6 -->
@@ -228,9 +218,7 @@
                         <h3>Easy Reordering & Reviews</h3>
                         <p>Scan the <strong>QR code on our packaging</strong> to reorder instantly, leave reviews, or explore more products.</p>
                     </div>
-                    <div class="col-lg-2 wow fadeInLeft" data-wow-delay="0.2s">
-                        <img src="img/about-1.jpg" alt="Freshly Prepared in Bulk" class="img-fluid process-img">
-                    </div>
+                   
                 </div>
         
                 <!-- Step 7 -->
@@ -243,9 +231,7 @@
                         <h3>Thank You for Your Support!</h3>
                         <p>Your trust keeps us going. We promise to continue delivering <strong>authentic Sri Lankan flavors</strong> with passion and dedication.</p>
                     </div>
-                    <div class="col-lg-2 wow fadeInLeft" data-wow-delay="0.2s">
-                        <img src="img/about-1.jpg" alt="Freshly Prepared in Bulk" class="img-fluid process-img">
-                    </div>
+                   
                 </div>
 
                
@@ -255,10 +241,14 @@
         <style>
         /* Process Section Styling */
         .process-step {
-            margin-bottom: 0px;
-            padding: 20px 0;
-        }
-        
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    text-align: center; /* Center text */
+    margin-bottom: 0px;
+    padding: 20px 0;
+}
+
         .process-step h3 {
             font-size: 20px;
             font-weight: bold;
@@ -281,15 +271,39 @@
         }
         
         /* Responsive Adjustments */
-        @media (max-width: 992px) {
-            .process-step {
-                text-align: center;
-            }
-        
-            .process-img {
-                margin-bottom: 20px;
-            }
-        }
+        @media (max-width: 768px) {
+    .process-step {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .process-img {
+        width: 25%; /* Smaller image size */
+        max-width: 100px;
+        border-radius: 10px;
+    }
+
+    .process-text {
+        width: 50%;
+        font-size: 12px; /* Mini-sized text */
+    }
+
+    .process-text h3 {
+        font-size: 14px; /* Smaller heading */
+        font-weight: bold;
+    }
+
+    .process-text p {
+        font-size: 12px;
+        line-height: 1.4;
+        color: #444;
+    }
+}
+
         </style>
         <!-- Team End -->
         
