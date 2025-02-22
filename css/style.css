@@ -152,11 +152,14 @@ link[rel="icon"] {
 
 .navbar-dark .navbar-brand img {
     max-height: 150px;
+    margin-top: 30px;
+  
     transition: .5s;
 }
 
 .sticky-top.navbar-dark .navbar-brand img {
     max-height: 45px;
+    margin-top: 5px;
 }
 
 @media (max-width: 991.98px) {
