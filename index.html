@@ -314,21 +314,16 @@
         
         /* Responsive Fixes */
         @media (max-width: 768px) {
-    .scroll-content {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .popular-grid {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px; /* Space between items */
+        justify-content: space-between; /* Ensures proper spacing */
+        gap: 10px; /* Adds spacing between items */
     }
 
     .product-card, .popular-category {
-        width: calc(50% - 10px); /* 50% width for two items per row with spacing */
-        max-width: 160px; /* Ensure a max width */
+        width: calc(50% - 10px); /* Ensures 2 cards per row with spacing */
+        max-width: 160px; /* Prevents oversized cards */
         height: auto;
         background: white;
         border-radius: 10px;
