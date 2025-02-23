@@ -12,7 +12,12 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/logo.png" style="size: 32x32">
 
-
+    <script>
+        if (window.location.pathname.endsWith(".html")) {
+            window.history.replaceState(null, null, window.location.pathname.replace(".html", ""));
+        }
+      </script>
+      
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
